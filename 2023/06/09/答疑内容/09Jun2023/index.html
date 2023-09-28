@@ -1,0 +1,2846 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>答疑 09-Jun-2023 | ZCC 的学术主页</title>
+  <meta name="keywords" content=" 答疑 ">
+  <meta name="description" content="答疑 09-Jun-2023 | ZCC 的学术主页">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Q: 求所有整数 ,  使  是整数, 对于所有正整数 .  A: 记 , 则  恒为整数等价于  恒为整数(观察二项展开). 故考虑  的情形即可. Case I. , 考察  即可. Case II. , 则 , . 从而  恒为整数的必要条件是 . 我们断言一切模  余  的  即为所求. Case II-1.  为平方数时显然, 因为  为偶数. Case II-2.  不为平方数时, 由">
+<meta property="og:type" content="article">
+<meta property="og:title" content="答疑 23-Dec-2023">
+<meta property="og:url" content="http://czhang271828.github.io/2023/12/23/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/23Dec2022/index.html">
+<meta property="og:site_name" content="ZCC 的学术主页">
+<meta property="og:description" content="Q: 求所有整数 ,  使  是整数, 对于所有正整数 .  A: 记 , 则  恒为整数等价于  恒为整数(观察二项展开). 故考虑  的情形即可. Case I. , 考察  即可. Case II. , 则 , . 从而  恒为整数的必要条件是 . 我们断言一切模  余  的  即为所求. Case II-1.  为平方数时显然, 因为  为偶数. Case II-2.  不为平方数时, 由">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2023-12-23T03:40:00.000Z">
+<meta property="article:modified_time" content="2023-09-26T05:16:20.644Z">
+<meta property="article:author" content="Tansing Tiunn">
+<meta property="article:tag" content="答疑">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/czhang271828/imgs/test/image-20230922200648171.png">
+
+<link href="/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
+
+<script src="/js/iconfont.js?v=1.1.0" ></script>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/"
+   class="avatar_target">
+    <img class="avatar"
+         src="https://cdn.jsdelivr.net/gh/czhang271828/imgs/test/image-20230922200648171.png"/>
+</a>
+<div class="author">
+    <span>Tansing Tiunn</span>
+</div>
+
+<div class="icon">
+    
+        
+    
+        
+            <a title="github"
+               href="https://github.com/czhang271828"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <a title="email"
+               href="mailto:zhangchencheng@sjtu.edu.cn"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-email"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="All">All
+            
+                <small>(166)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+                
+    <li>
+        <div data-rel="本科笔记">
+            <i class="fold iconfont icon-right"></i>
+            本科笔记
+            <small>(13)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="本科笔记&lt;---&gt;组合">
+            
+            组合
+            <small>(13)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="测试功能">
+            
+            测试功能
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="答疑">
+            <i class="fold iconfont icon-right"></i>
+            答疑
+            <small>(113)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2021">
+            <i class="fold iconfont icon-right"></i>
+            2021
+            <small>(6)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2021&lt;---&gt;January">
+            
+            January
+            <small>(5)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2021&lt;---&gt;June">
+            
+            June
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022">
+            <i class="fold iconfont icon-right"></i>
+            2022
+            <small>(21)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;April">
+            
+            April
+            <small>(2)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;August">
+            
+            August
+            <small>(4)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;December">
+            
+            December
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;February">
+            
+            February
+            <small>(3)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;January">
+            
+            January
+            <small>(3)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;July">
+            
+            July
+            <small>(4)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;June">
+            
+            June
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;March">
+            
+            March
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2022&lt;---&gt;November">
+            
+            November
+            <small>(2)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023">
+            <i class="fold iconfont icon-right"></i>
+            2023
+            <small>(86)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;Agust">
+            
+            Agust
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;Apr">
+            
+            Apr
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;April">
+            
+            April
+            <small>(12)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;August">
+            
+            August
+            <small>(9)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;December">
+            
+            December
+            <small>(2)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;Feb">
+            
+            Feb
+            <small>(3)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;February">
+            
+            February
+            <small>(6)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;January">
+            
+            January
+            <small>(8)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;July">
+            
+            July
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;June">
+            
+            June
+            <small>(14)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;Mar">
+            
+            Mar
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;March">
+            
+            March
+            <small>(15)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;May">
+            
+            May
+            <small>(10)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;November">
+            
+            November
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;October">
+            
+            October
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="答疑&lt;---&gt;2023&lt;---&gt;September">
+            
+            September
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="学科笔记">
+            <i class="fold iconfont icon-right"></i>
+            学科笔记
+            <small>(15)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="学科笔记&lt;---&gt;博一(秋)">
+            <i class="fold iconfont icon-right"></i>
+            博一(秋)
+            <small>(14)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="学科笔记&lt;---&gt;博一(秋)&lt;---&gt;分析">
+            
+            分析
+            <small>(6)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="学科笔记&lt;---&gt;博一(秋)&lt;---&gt;流形的几何与拓扑">
+            
+            流形的几何与拓扑
+            <small>(2)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="学科笔记&lt;---&gt;博一(秋)&lt;---&gt;目录">
+            
+            目录
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="学科笔记&lt;---&gt;博一(秋)&lt;---&gt;微分几何">
+            
+            微分几何
+            <small>(5)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="学科笔记&lt;---&gt;Zhang 组会">
+            
+            Zhang 组会
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/about">About</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">Friends</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="166">
+<input type="hidden" id="yelog_site_word_count" value="86k">
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        Links
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            
+            <li><a target="_blank" href="https://czhang271828.github.io/z">旧站点</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">All</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="返回"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>$p$-进数</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>笔记</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>答疑</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>矩阵论</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>邻接矩阵</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>模型范畴</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>棋牌</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>群论</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>熵</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>数论</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>图论</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>图谱论</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>有限元</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>站务</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>正则图</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Bool 代数</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>LaTeX</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Lie 代数</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <nav id="title-list-nav">
+        
+        
+        <a  class="All 答疑 2023 December "
+           href="/2023/12/23/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/23Dec2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 23-Dec-2023">答疑 23-Dec-2023</span>
+            <span class="post-date" title="2023-12-23 11:40:00">2023/12/23</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 December "
+           href="/2023/12/16/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/16Dec2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 16-Dec-2022">答疑 16-Dec-2022</span>
+            <span class="post-date" title="2023-12-16 11:40:00">2023/12/16</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 November "
+           href="/2023/11/04/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/04Nov2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 04-Nov-2023">答疑 04-Nov-2023</span>
+            <span class="post-date" title="2023-11-04 11:40:00">2023/11/04</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 October "
+           href="/2023/10/31/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/31Oct2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 31-Oct-2023">答疑 31-Oct-2023</span>
+            <span class="post-date" title="2023-10-31 11:40:00">2023/10/31</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/28/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B(%E4%B8%8A)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-28 14:32:18">2023/09/28</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/28/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%B0%8F%E7%90%83/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-28 14:32:18">2023/09/28</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 Zhang 组会 "
+           href="/2023/09/26/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E6%A8%A1%E5%9E%8B%E8%8C%83%E7%95%B4%2026Sept/"
+           data-tag="模型范畴"
+           data-author="" >
+            <span class="post-title" title="Model structure">Model structure</span>
+            <span class="post-date" title="2023-09-26 18:05:08">2023/09/26</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 分析 "
+           href="/2023/09/26/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%88%86%E6%9E%90%2026-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="分析 26-Sept-2023">分析 26-Sept-2023</span>
+            <span class="post-date" title="2023-09-26 11:40:00">2023/09/26</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 微分几何 "
+           href="/2023/09/24/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%BE%AE%E5%88%86%E6%B5%81%E5%BD%A2%E4%B8%8E%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95%2024-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="微分流形与微分几何 24-Sept-2023">微分流形与微分几何 24-Sept-2023</span>
+            <span class="post-date" title="2023-09-24 17:40:00">2023/09/24</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E4%B8%80%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E4%BA%94%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E5%9B%9B%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E4%B8%89%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E4%B8%83%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E5%85%AD%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E4%BA%8C%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%8D%81%E5%85%AB%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E4%B9%9D%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E4%BA%8C%E5%8D%81%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%85%AB%E6%9C%9F)/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 23:08:40">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2023/09/22/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/Dimer%20coverings%20on%20the%20tessellation/"
+           data-tag="矩阵论,熵,图论"
+           data-author="" >
+            <span class="post-title" title="Dimer covering and Kasteleyn Matrix">Dimer covering and Kasteleyn Matrix</span>
+            <span class="post-date" title="2023-09-22 22:33:48">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/16June2022/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 21:05:35">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/16Jun2023/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 21:05:35">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/16Jan2021/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 21:05:35">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/22/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/14Apr2023/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title=""></span>
+            <span class="post-date" title="2023-09-22 21:05:35">2023/09/22</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 微分几何 "
+           href="/2023/09/21/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%BE%AE%E5%88%86%E6%B5%81%E5%BD%A2%E4%B8%8E%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95%2021-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="微分流形与微分几何 21-Sept-2023">微分流形与微分几何 21-Sept-2023</span>
+            <span class="post-date" title="2023-09-21 17:40:00">2023/09/21</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 分析 "
+           href="/2023/09/21/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%88%86%E6%9E%90%2021-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="分析 21-Sept-2023">分析 21-Sept-2023</span>
+            <span class="post-date" title="2023-09-21 11:40:00">2023/09/21</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/20/%E6%96%87%E5%AD%97%E7%A8%BF%E6%8E%92%E7%89%88%E7%A4%BA%E4%BE%8B/"
+           data-tag="站务"
+           data-author="" >
+            <span class="post-title" title="文字稿排版示例">文字稿排版示例</span>
+            <span class="post-date" title="2023-09-20 23:11:11">2023/09/20</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/20/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/torsion_pair/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="Notes on Torsion Pairs">Notes on Torsion Pairs</span>
+            <span class="post-date" title="2023-09-20 23:11:11">2023/09/20</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 流形的几何与拓扑 "
+           href="/2023/09/20/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E6%B5%81%E5%BD%A2%E7%9A%84%E5%87%A0%E4%BD%95%E4%B8%8E%E6%8B%93%E6%89%91%2020-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="拓扑 20-Sept-2023">拓扑 20-Sept-2023</span>
+            <span class="post-date" title="2023-09-20 20:30:00">2023/09/20</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 分析 "
+           href="/2023/09/19/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%88%86%E6%9E%90%2019-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="分析 19-Sept-2023">分析 19-Sept-2023</span>
+            <span class="post-date" title="2023-09-19 11:40:00">2023/09/19</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 分析 "
+           href="/2023/09/19/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%88%86%E6%9E%90%20HW1/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="分析 19-Sept-2023">分析 19-Sept-2023</span>
+            <span class="post-date" title="2023-09-19 11:40:00">2023/09/19</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 微分几何 "
+           href="/2023/09/18/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%BE%AE%E5%88%86%E6%B5%81%E5%BD%A2%E4%B8%8E%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95%2018-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="微分流形与微分几何 18-Sept-2023">微分流形与微分几何 18-Sept-2023</span>
+            <span class="post-date" title="2023-09-18 17:40:00">2023/09/18</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 微分几何 "
+           href="/2023/09/14/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%BE%AE%E5%88%86%E6%B5%81%E5%BD%A2%E4%B8%8E%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95%2011-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="微分流形与微分几何 11-Sept-2023">微分流形与微分几何 11-Sept-2023</span>
+            <span class="post-date" title="2023-09-14 17:40:00">2023/09/14</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 微分几何 "
+           href="/2023/09/14/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%BE%AE%E5%88%86%E6%B5%81%E5%BD%A2%E4%B8%8E%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95%2014-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="微分流形与微分几何 14-Sept-2023">微分流形与微分几何 14-Sept-2023</span>
+            <span class="post-date" title="2023-09-14 17:40:00">2023/09/14</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 分析 "
+           href="/2023/09/14/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%88%86%E6%9E%90%2014-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="分析 14-Sept-2023">分析 14-Sept-2023</span>
+            <span class="post-date" title="2023-09-14 11:40:00">2023/09/14</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 流形的几何与拓扑 "
+           href="/2023/09/13/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E6%B5%81%E5%BD%A2%E7%9A%84%E5%87%A0%E4%BD%95%E4%B8%8E%E6%8B%93%E6%89%91%2013-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="拓扑 13-Sept-2023">拓扑 13-Sept-2023</span>
+            <span class="post-date" title="2023-09-13 20:30:00">2023/09/13</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/12/hello-world/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2023-09-12 13:23:13">2023/09/12</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 目录 "
+           href="/2023/09/12/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/2023%E5%B9%B4%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E7%AC%94%E8%AE%B0/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="2023年秋季学期笔记">2023年秋季学期笔记</span>
+            <span class="post-date" title="2023-09-12 12:54:00">2023/09/12</span>
+        </a>
+        
+        
+        <a  class="All 学科笔记 博一(秋) 分析 "
+           href="/2023/09/12/%E5%8D%9A%E5%A3%AB%E7%AC%94%E8%AE%B0/%E5%88%86%E6%9E%90%2012-Sept-2023/"
+           data-tag="笔记"
+           data-author="" >
+            <span class="post-title" title="分析 12-Sept-2023">分析 12-Sept-2023</span>
+            <span class="post-date" title="2023-09-12 11:40:00">2023/09/12</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/09/12/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/01Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 01-Jun-2023">答疑 01-Jun-2023</span>
+            <span class="post-date" title="2023-09-12 11:40:00">2023/09/12</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 September "
+           href="/2023/09/08/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/08Sep2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 08-Sep-2023">答疑 08-Sep-2023</span>
+            <span class="post-date" title="2023-09-08 11:40:00">2023/09/08</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/2023/09/05/%E6%96%B0%E7%AB%99%E7%82%B9/"
+           data-tag="站务"
+           data-author="" >
+            <span class="post-title" title="新站点">新站点</span>
+            <span class="post-date" title="2023-09-05 14:43:59">2023/09/05</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/31/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/31Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 31-Aug-2023">答疑 31-Aug-2023</span>
+            <span class="post-date" title="2023-08-31 11:40:00">2023/08/31</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/30/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/30Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 30-Aug-2023">答疑 30-Aug-2023</span>
+            <span class="post-date" title="2023-08-30 11:40:00">2023/08/30</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-Aug-2023">答疑 29-Aug-2023</span>
+            <span class="post-date" title="2023-08-29 11:40:00">2023/08/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/28/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/28Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 28-Aug-2023">答疑 28-Aug-2023</span>
+            <span class="post-date" title="2023-08-28 11:40:00">2023/08/28</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/25/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/25Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 25-Aug-2023">答疑 25-Aug-2023</span>
+            <span class="post-date" title="2023-08-25 11:40:00">2023/08/25</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/24/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/24Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 24-Aug-2023">答疑 24-Aug-2023</span>
+            <span class="post-date" title="2023-08-24 11:40:00">2023/08/24</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 Agust "
+           href="/2023/08/23/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/23Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 23-Aug-2023">答疑 23-Aug-2023</span>
+            <span class="post-date" title="2023-08-23 11:40:00">2023/08/23</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/09/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/09Aug2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 09-Aug-2022">答疑 09-Aug-2022</span>
+            <span class="post-date" title="2023-08-09 11:40:00">2023/08/09</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 August "
+           href="/2023/08/07/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/07Aug2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 07-Aug-2022">答疑 07-Aug-2022</span>
+            <span class="post-date" title="2023-08-07 11:40:00">2023/08/07</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 August "
+           href="/2023/08/07/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/07'Aug2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 07-Aug-2022">答疑 07-Aug-2022</span>
+            <span class="post-date" title="2023-08-07 11:40:00">2023/08/07</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06'Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-Aug-2023">答疑 06-Aug-2023</span>
+            <span class="post-date" title="2023-08-06 11:40:00">2023/08/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 August "
+           href="/2023/08/05/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/05Aug2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 05-Aug-2023">答疑 05-Aug-2023</span>
+            <span class="post-date" title="2023-08-05 11:40:00">2023/08/05</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 July "
+           href="/2023/07/28/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/28Jul2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 28-Jul-2023">答疑 28-Jul-2023</span>
+            <span class="post-date" title="2023-07-28 11:40:00">2023/07/28</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/06/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-Jun-2023">答疑 29-Jun-2023</span>
+            <span class="post-date" title="2023-06-29 11:40:00">2023/06/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/24/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/24Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 24-Jun-2023">答疑 24-Jun-2023</span>
+            <span class="post-date" title="2023-06-24 11:40:00">2023/06/24</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/20/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/20Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 20-Jun-2023">答疑 20-Jun-2023</span>
+            <span class="post-date" title="2023-06-20 11:40:00">2023/06/20</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/18/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/18Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 18-Jun-2023">答疑 18-Jun-2023</span>
+            <span class="post-date" title="2023-06-18 11:40:00">2023/06/18</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/15/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/15Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 15-Jun-2023">答疑 15-Jun-2023</span>
+            <span class="post-date" title="2023-06-15 11:40:00">2023/06/15</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/12/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/12Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 12-Jun-2023">答疑 12-Jun-2023</span>
+            <span class="post-date" title="2023-06-12 11:40:00">2023/06/12</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/10/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/10Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 10-Jun-2023">答疑 10-Jun-2023</span>
+            <span class="post-date" title="2023-06-10 11:40:00">2023/06/10</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/09/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/09Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 09-Jun-2023">答疑 09-Jun-2023</span>
+            <span class="post-date" title="2023-06-09 11:40:00">2023/06/09</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/08/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/08Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 08-Jun-2023">答疑 08-Jun-2023</span>
+            <span class="post-date" title="2023-06-08 11:40:00">2023/06/08</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 June "
+           href="/2023/06/07/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/07Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 07-Jun-2022">答疑 07-Jun-2022</span>
+            <span class="post-date" title="2023-06-07 11:40:00">2023/06/07</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06'Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-Jun-2023">答疑 06-Jun-2023</span>
+            <span class="post-date" title="2023-06-06 11:40:00">2023/06/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-Jun-2023">答疑 06-Jun-2023</span>
+            <span class="post-date" title="2023-06-06 11:40:00">2023/06/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/05/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/05Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 05-Jun-2023">答疑 05-Jun-2023</span>
+            <span class="post-date" title="2023-06-05 11:40:00">2023/06/05</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/04/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/04Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 04-Jun-2023">答疑 04-Jun-2023</span>
+            <span class="post-date" title="2023-06-04 11:40:00">2023/06/04</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 June "
+           href="/2023/06/03/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/03Jun2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 03-Jun-2023">答疑 03-Jun-2023</span>
+            <span class="post-date" title="2023-06-03 11:40:00">2023/06/03</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/05/31/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/31Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 31-Mar-2023">答疑 31-Mar-2023</span>
+            <span class="post-date" title="2023-05-31 11:40:00">2023/05/31</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/30/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/30May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 30-May-2023">答疑 30-May-2023</span>
+            <span class="post-date" title="2023-05-30 11:40:00">2023/05/30</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29''May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-May-2023">答疑 29-May-2023</span>
+            <span class="post-date" title="2023-05-29 11:40:00">2023/05/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29'May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-May-2023">答疑 29-May-2023</span>
+            <span class="post-date" title="2023-05-29 11:40:00">2023/05/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-May-2023">答疑 29-May-2023</span>
+            <span class="post-date" title="2023-05-29 11:40:00">2023/05/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/20/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/20May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 20-May-2023">答疑 20-May-2023</span>
+            <span class="post-date" title="2023-05-20 11:40:00">2023/05/20</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/18/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/18May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 18-May-2023">答疑 18-May-2023</span>
+            <span class="post-date" title="2023-05-18 11:40:00">2023/05/18</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/16/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/16May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 16-May-2023">答疑 16-May-2023</span>
+            <span class="post-date" title="2023-05-16 11:40:00">2023/05/16</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/15/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/15May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 15-May-2023">答疑 15-May-2023</span>
+            <span class="post-date" title="2023-05-15 11:40:00">2023/05/15</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-May-2023">答疑 06-May-2023</span>
+            <span class="post-date" title="2023-05-06 11:40:00">2023/05/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 May "
+           href="/2023/05/04/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/04May2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 04-May-2023">答疑 04-May-2023</span>
+            <span class="post-date" title="2023-05-04 11:40:00">2023/05/04</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/30/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/30Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 30-Apr-2023">答疑 30-Apr-2023</span>
+            <span class="post-date" title="2023-04-30 11:40:00">2023/04/30</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/30/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/30'Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 30-Apr-2023">答疑 30-Apr-2023</span>
+            <span class="post-date" title="2023-04-30 11:40:00">2023/04/30</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-Apr-2023">答疑 29-Apr-2023</span>
+            <span class="post-date" title="2023-04-29 11:40:00">2023/04/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26''Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Apr-2023">答疑 26-Apr-2023</span>
+            <span class="post-date" title="2023-04-26 11:40:00">2023/04/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26'Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Apr-2023">答疑 26-Apr-2023</span>
+            <span class="post-date" title="2023-04-26 11:40:00">2023/04/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Apr-2023">答疑 26-Apr-2023</span>
+            <span class="post-date" title="2023-04-26 11:40:00">2023/04/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/25/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/25Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 25-April-2023">答疑 25-April-2023</span>
+            <span class="post-date" title="2023-04-25 11:40:00">2023/04/25</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/23/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/23April2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 23-Apr-2023">答疑 23-Apr-2023</span>
+            <span class="post-date" title="2023-04-23 11:40:00">2023/04/23</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/18/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/18Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 18-Apr-2023">答疑 18-Apr-2023</span>
+            <span class="post-date" title="2023-04-18 11:40:00">2023/04/18</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/11/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/11Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 11-Apr-2023">答疑 11-Apr-2023</span>
+            <span class="post-date" title="2023-04-11 11:40:00">2023/04/11</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 April "
+           href="/2023/04/10/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/10Apr2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 10-Apr-2022">答疑 10-Apr-2022</span>
+            <span class="post-date" title="2023-04-10 11:40:00">2023/04/10</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 April "
+           href="/2023/04/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-Apr-2023">答疑 06-Apr-2023</span>
+            <span class="post-date" title="2023-04-06 11:40:00">2023/04/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 Apr "
+           href="/2023/04/05/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/05Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 05-Apr-2023">答疑 05-Apr-2023</span>
+            <span class="post-date" title="2023-04-05 11:40:00">2023/04/05</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/30/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/30Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 30-Mar-2023">答疑 30-Mar-2023</span>
+            <span class="post-date" title="2023-03-30 11:40:00">2023/03/30</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/27/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/27Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 27-Mar-2023">答疑 27-Mar-2023</span>
+            <span class="post-date" title="2023-03-27 11:40:00">2023/03/27</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Mar-2023">答疑 26-Mar-2023</span>
+            <span class="post-date" title="2023-03-26 11:40:00">2023/03/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/25/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/25Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 25-Mar-2023">答疑 25-Mar-2023</span>
+            <span class="post-date" title="2023-03-25 11:40:00">2023/03/25</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/24/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/24Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 24-Mar-2023">答疑 24-Mar-2023</span>
+            <span class="post-date" title="2023-03-24 11:40:00">2023/03/24</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/21/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/21Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 21-Mar-2023">答疑 21-Mar-2023</span>
+            <span class="post-date" title="2023-03-21 11:40:00">2023/03/21</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/17/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/17Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 17-Mar-2023">答疑 17-Mar-2023</span>
+            <span class="post-date" title="2023-03-17 11:40:00">2023/03/17</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/16/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/16'Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 16-Mar-2023">答疑 16-Mar-2023</span>
+            <span class="post-date" title="2023-03-16 11:40:00">2023/03/16</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/16/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/16Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 16-Mar-2023">答疑 16-Mar-2023</span>
+            <span class="post-date" title="2023-03-16 11:40:00">2023/03/16</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/15/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/15Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 15-Mar-2023">答疑 15-Mar-2023</span>
+            <span class="post-date" title="2023-03-15 11:40:00">2023/03/15</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/08/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/08Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 08-Mar-2023">答疑 08-Mar-2023</span>
+            <span class="post-date" title="2023-03-08 11:40:00">2023/03/08</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/05/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/05Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 05-Mar-2023">答疑 05-Mar-2023</span>
+            <span class="post-date" title="2023-03-05 11:40:00">2023/03/05</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 Mar "
+           href="/2023/03/04/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/04Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 04-Mar-2023">答疑 04-Mar-2023</span>
+            <span class="post-date" title="2023-03-04 11:40:00">2023/03/04</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/03/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/03Mar2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 03-Mar-2023">答疑 03-Mar-2023</span>
+            <span class="post-date" title="2023-03-03 11:40:00">2023/03/03</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 Feb "
+           href="/2023/03/02/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/03Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 03-Feb-2023">答疑 03-Feb-2023</span>
+            <span class="post-date" title="2023-03-02 11:40:00">2023/03/02</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 March "
+           href="/2023/03/01/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/01Mar2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 01-Mar-2023">答疑 01-Mar-2023</span>
+            <span class="post-date" title="2023-03-01 11:40:00">2023/03/01</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 February "
+           href="/2023/02/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26'Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Feb-2023">答疑 26-Feb-2023</span>
+            <span class="post-date" title="2023-02-26 11:40:00">2023/02/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 February "
+           href="/2023/02/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Feb-2023">答疑 26-Feb-2023</span>
+            <span class="post-date" title="2023-02-26 11:40:00">2023/02/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 February "
+           href="/2023/02/17/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/17Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 17-Feb-2023">答疑 17-Feb-2023</span>
+            <span class="post-date" title="2023-02-17 11:40:00">2023/02/17</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 February "
+           href="/2023/02/11/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/11Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 11-Feb-2023">答疑 11-Feb-2023</span>
+            <span class="post-date" title="2023-02-11 11:40:00">2023/02/11</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 February "
+           href="/2023/02/09/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/09Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 09-Feb-2023">答疑 09-Feb-2023</span>
+            <span class="post-date" title="2023-02-09 11:40:00">2023/02/09</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 Feb "
+           href="/2023/02/08/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/08'Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 08-Feb-2022">答疑 08-Feb-2022</span>
+            <span class="post-date" title="2023-02-08 11:40:00">2023/02/08</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 Feb "
+           href="/2023/02/08/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/08Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 08-Feb-2022">答疑 08-Feb-2022</span>
+            <span class="post-date" title="2023-02-08 11:40:00">2023/02/08</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 February "
+           href="/2023/02/05/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/05Feb2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 05-Feb-2023">答疑 05-Feb-2023</span>
+            <span class="post-date" title="2023-02-05 11:40:00">2023/02/05</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/31/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/31Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 31-Jan-2023">答疑 31-Jan-2023</span>
+            <span class="post-date" title="2023-01-31 11:40:00">2023/01/31</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/28/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/28Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 28-Jan-2023">答疑 28-Jan-2023</span>
+            <span class="post-date" title="2023-01-28 11:40:00">2023/01/28</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Jan-2023">答疑 26-Jan-2023</span>
+            <span class="post-date" title="2023-01-26 11:40:00">2023/01/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/24/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/24Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 24-Jan-2023">答疑 24-Jan-2023</span>
+            <span class="post-date" title="2023-01-24 11:40:00">2023/01/24</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2021 January "
+           href="/2023/01/13/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/13Jan2021/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 13-Jan-2021">答疑 13-Jan-2021</span>
+            <span class="post-date" title="2023-01-13 11:40:00">2023/01/13</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2021 January "
+           href="/2023/01/12/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/12'Jan2021/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 12-Jan-2021">答疑 12-Jan-2021</span>
+            <span class="post-date" title="2023-01-12 11:40:00">2023/01/12</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2021 January "
+           href="/2023/01/12/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/12Jan2021/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 12-Jan-2021">答疑 12-Jan-2021</span>
+            <span class="post-date" title="2023-01-12 11:40:00">2023/01/12</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/09/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/09'Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 09-Jan-2023">答疑 09-Jan-2023</span>
+            <span class="post-date" title="2023-01-09 11:40:00">2023/01/09</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/09/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/09Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 09-Jan-2023">答疑 09-Jan-2023</span>
+            <span class="post-date" title="2023-01-09 11:40:00">2023/01/09</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2021 January "
+           href="/2023/01/08/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/08Jan2021/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 08-Jan-2021">答疑 08-Jan-2021</span>
+            <span class="post-date" title="2023-01-08 11:40:00">2023/01/08</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 January "
+           href="/2023/01/07/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/07Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 07-Jan-2022">答疑 07-Jan-2022</span>
+            <span class="post-date" title="2023-01-07 11:40:00">2023/01/07</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06'Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-Jan-2023">答疑 06-Jan-2023</span>
+            <span class="post-date" title="2023-01-06 11:40:00">2023/01/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2023 January "
+           href="/2023/01/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06Jan2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-Jan-2023">答疑 06-Jan-2023</span>
+            <span class="post-date" title="2023-01-06 11:40:00">2023/01/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 December "
+           href="/2022/12/15/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/15Dec2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 15-Dec-2022">答疑 15-Dec-2022</span>
+            <span class="post-date" title="2022-12-15 11:40:00">2022/12/15</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 November "
+           href="/2022/11/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29Nov2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-Nov-2022">答疑 29-Nov-2022</span>
+            <span class="post-date" title="2022-11-29 11:40:00">2022/11/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 November "
+           href="/2022/11/14/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/14Nov2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 14-November-2022">答疑 14-November-2022</span>
+            <span class="post-date" title="2022-11-14 11:40:00">2022/11/14</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 August "
+           href="/2022/08/06/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/06Aug2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 06-Aug-2022">答疑 06-Aug-2022</span>
+            <span class="post-date" title="2022-08-06 11:40:00">2022/08/06</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 August "
+           href="/2022/08/02/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/02Aug2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 02-Aug-2022">答疑 02-Aug-2022</span>
+            <span class="post-date" title="2022-08-02 11:40:00">2022/08/02</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 July "
+           href="/2022/07/22/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/22'Jul2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 22-Jul-2022">答疑 22-Jul-2022</span>
+            <span class="post-date" title="2022-07-22 11:40:00">2022/07/22</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 July "
+           href="/2022/07/22/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/22Jul2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 22-Jul-2022">答疑 22-Jul-2022</span>
+            <span class="post-date" title="2022-07-22 11:40:00">2022/07/22</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2022/06/24/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E8%83%BD%E5%90%A6%E5%B0%86%E6%AD%A3%E6%96%B9%E5%9E%8B%E5%88%86%E6%88%90%E5%A5%87%E6%95%B0%E4%B8%AA%E4%B8%89%E8%A7%92%E5%BD%A2%EF%BC%9F/"
+           data-tag="$p$-进数,数论"
+           data-author="" >
+            <span class="post-title" title="正方形分为奇数个等积三角">正方形分为奇数个等积三角</span>
+            <span class="post-date" title="2022-06-24 22:41:00">2022/06/24</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 July "
+           href="/2022/05/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29'Jul2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-Jul-2022">答疑 29-Jul-2022</span>
+            <span class="post-date" title="2022-05-29 11:40:00">2022/05/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 July "
+           href="/2022/05/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29Jul2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-Jul-2022">答疑 29-Jul-2022</span>
+            <span class="post-date" title="2022-05-29 11:40:00">2022/05/29</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 April "
+           href="/2022/04/22/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/22Apr2023/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 22-Apr-2022">答疑 22-Apr-2022</span>
+            <span class="post-date" title="2022-04-22 11:40:00">2022/04/22</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 March "
+           href="/2022/03/17/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/17Mar2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 17-Mar-2022">答疑 17-Mar-2022</span>
+            <span class="post-date" title="2022-03-17 11:40:00">2022/03/17</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 February "
+           href="/2022/02/26/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/26Feb2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 26-Feb-2022">答疑 26-Feb-2022</span>
+            <span class="post-date" title="2022-02-26 11:40:00">2022/02/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 February "
+           href="/2022/02/19/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/19Feb2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 19-Feb-2022">答疑 19-Feb-2022</span>
+            <span class="post-date" title="2022-02-19 11:40:00">2022/02/19</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 February "
+           href="/2022/02/03/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/03Feb2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 03-Feb-2022">答疑 03-Feb-2022</span>
+            <span class="post-date" title="2022-02-03 11:40:00">2022/02/03</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 January "
+           href="/2022/01/15/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/15'Jan2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 15-Jan-2022">答疑 15-Jan-2022</span>
+            <span class="post-date" title="2022-01-15 11:40:00">2022/01/15</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2022 January "
+           href="/2022/01/15/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/15Jan2022/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 15-Jan-2022">答疑 15-Jan-2022</span>
+            <span class="post-date" title="2022-01-15 11:40:00">2022/01/15</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/12/21/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%88%9D%E6%8E%A2%CE%BBmin%E2%89%A52lambda_mingeq%202%E7%9A%84%E7%AE%80%E5%8D%95%E5%9B%BE/"
+           data-tag="图论,Lie 代数,正则图"
+           data-author="" >
+            <span class="post-title" title="初探 $\lambda_\min\geq -2$ 的简单图">初探 $\lambda_\min\geq -2$ 的简单图</span>
+            <span class="post-date" title="2021-12-21 14:02:17">2021/12/21</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/11/27/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E8%AE%B2%E7%A8%BF%20I/"
+           data-tag="矩阵论,图谱论,邻接矩阵"
+           data-author="" >
+            <span class="post-title" title="图谱论讲稿 I(修改稿)">图谱论讲稿 I(修改稿)</span>
+            <span class="post-date" title="2021-11-27 21:11:00">2021/11/27</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/10/28/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E7%BB%84%E4%BC%9A%E8%AE%B2%E7%A8%BF%20II/"
+           data-tag="图谱论,有限元"
+           data-author="" >
+            <span class="post-title" title="图谱论讲稿 II">图谱论讲稿 II</span>
+            <span class="post-date" title="2021-10-28 22:36:50">2021/10/28</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/10/21/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/H%20huang%20Problem/"
+           data-tag="矩阵论,图论,Bool 代数"
+           data-author="" >
+            <span class="post-title" title="Huang&#39;s Problem">Huang&#39;s Problem</span>
+            <span class="post-date" title="2021-10-21 21:19:09">2021/10/21</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/09/15/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E9%BA%BB%E9%9B%80%E5%84%BF%E4%B8%AD%E7%9A%84%E5%90%91%E5%90%AC%E6%95%B0/"
+           data-tag="图论,棋牌"
+           data-author="" >
+            <span class="post-title" title="麻雀儿中的向听数">麻雀儿中的向听数</span>
+            <span class="post-date" title="2021-09-15 13:49:49">2021/09/15</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/07/28/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E4%B8%89%E6%9C%9F)/"
+           data-tag="矩阵论,图谱论,群论"
+           data-author="" >
+            <span class="post-title" title="图谱论导引(第三期)">图谱论导引(第三期)</span>
+            <span class="post-date" title="2021-07-28 20:11:09">2021/07/28</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/07/02/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E4%BA%94%E6%9C%9F)/"
+           data-tag="矩阵论,图谱论"
+           data-author="" >
+            <span class="post-title" title="图谱论导引(第五期)">图谱论导引(第五期)</span>
+            <span class="post-date" title="2021-07-02 08:52:53">2021/07/02</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/07/02/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%9B%9B%E6%9C%9F)/"
+           data-tag="矩阵论,图谱论"
+           data-author="" >
+            <span class="post-title" title="图谱论导引(第四期)">图谱论导引(第四期)</span>
+            <span class="post-date" title="2021-07-02 08:52:46">2021/07/02</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/06/26/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E4%BA%8C%E6%9C%9F)/"
+           data-tag="矩阵论,图谱论"
+           data-author="" >
+            <span class="post-title" title="图谱论导引(第二期)">图谱论导引(第二期)</span>
+            <span class="post-date" title="2021-06-26 16:20:36">2021/06/26</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/06/26/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E5%85%AD%E6%9C%9F)/"
+           data-tag="矩阵论,图谱论"
+           data-author="" >
+            <span class="post-title" title="图谱论导引(第六期)">图谱论导引(第六期)</span>
+            <span class="post-date" title="2021-06-26 15:19:14">2021/06/26</span>
+        </a>
+        
+        
+        <a  class="All 本科笔记 组合 "
+           href="/2021/06/26/%E6%9C%AC%E7%A7%91%E7%BB%84%E5%90%88/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E5%AF%BC%E5%BC%95(%E7%AC%AC%E4%B8%80%E6%9C%9F)/"
+           data-tag="矩阵论,图谱论"
+           data-author="" >
+            <span class="post-title" title="图谱论导引(第一期)">图谱论导引(第一期)</span>
+            <span class="post-date" title="2021-06-26 10:18:48">2021/06/26</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2021 June "
+           href="/2021/06/20/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/20Jun2021/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 20-Jun-2021">答疑 20-Jun-2021</span>
+            <span class="post-date" title="2021-06-20 11:40:00">2021/06/20</span>
+        </a>
+        
+        
+        <a  class="All 答疑 2021 January "
+           href="/2021/01/29/%E7%AD%94%E7%96%91%E5%86%85%E5%AE%B9/29Jan2021/"
+           data-tag="答疑"
+           data-author="" >
+            <span class="post-title" title="答疑 29-Jan-2021">答疑 29-Jan-2021</span>
+            <span class="post-date" title="2021-01-29 11:40:00">2021/01/29</span>
+        </a>
+        
+        
+        <a  class="All 测试功能 "
+           href="/2020/09/12/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/"
+           data-tag="站务,LaTeX"
+           data-author="" >
+            <span class="post-title" title="MathJax Test">MathJax Test</span>
+            <span class="post-date" title="2020-09-12 16:02:07">2020/09/12</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-答疑内容/09Jun2023" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">答疑 09-Jun-2023</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="答疑">答疑</a> > 
+            
+            <a  data-rel="答疑&lt;---&gt;2023">2023</a> > 
+            
+            <a  data-rel="答疑&lt;---&gt;2023&lt;---&gt;June">June</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color3">答疑</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            Created At : <time class="date" title='Updated At: 2023-09-23 16:28:32'>2023-06-09 11:40</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>Count:108</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            Views 👀 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Q: <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.697ex" height="1.62ex" role="img" focusable="false" viewBox="0 -716 750 716"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g></g></g></svg></mjx-container> is normal iff <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="9.138ex" height="1.805ex" role="img" focusable="false" viewBox="0 -716 4039.1 798"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(783,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g><g data-mml-node="mo" transform="translate(1464.3,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(2520.1,0)"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mi" transform="translate(3270.1,0)"><path data-c="1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"></path></g></g></g></svg></mjx-container> for some unitary matrix <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.928ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 852 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D44B" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path></g></g></g></svg></mjx-container>?</p>
+<hr>
+<p>A: <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.054ex;" xmlns="http://www.w3.org/2000/svg" width="3.64ex" height="1.242ex" role="img" focusable="false" viewBox="0 -525 1609 549"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="27F8" d="M274 173H1539Q1540 172 1542 171T1545 169T1547 167T1550 164T1551 162T1552 158T1553 153Q1553 140 1538 133H318L328 123Q379 69 414 0Q419 -13 419 -17Q419 -24 399 -24Q388 -24 385 -23T377 -12Q332 77 253 144T72 237Q62 240 59 242T56 250T59 257T70 262T89 268T119 278T160 296Q303 366 377 512Q382 522 385 523T401 525Q419 524 419 515Q419 510 414 500Q379 431 328 377L318 367H1538Q1553 359 1553 347Q1553 336 1539 328L1221 327H903L900 328L602 327H274L264 319Q225 289 147 250Q148 249 165 241T210 217T264 181L274 173Z"></path></g></g></g></svg></mjx-container>: Since</p>
+<script type="math/tex; mode=display">
+[A^\ast =AV]\Leftrightarrow [A=V^\ast A^\ast]\Leftrightarrow [VA=A^\ast],</script><p>we see that <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.697ex" height="1.62ex" role="img" focusable="false" viewBox="0 -716 750 716"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g></g></g></svg></mjx-container> and <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="1.74ex" height="1.595ex" role="img" focusable="false" viewBox="0 -683 769 705"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"></path></g></g></g></svg></mjx-container> commutes. Hence</p>
+<script type="math/tex; mode=display">
+A^\ast A=(AV)A=A(VA)=AA^\ast.</script><p><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.054ex;" xmlns="http://www.w3.org/2000/svg" width="3.706ex" height="1.242ex" role="img" focusable="false" viewBox="0 -525 1638 549"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="27F9" d="M1218 514Q1218 525 1234 525Q1239 525 1242 525T1247 525T1251 524T1253 523T1255 520T1257 517T1260 512Q1297 438 1358 381T1469 300T1565 263Q1582 258 1582 250T1573 239T1536 228T1478 204Q1334 134 1260 -12Q1256 -21 1253 -22T1238 -24Q1218 -24 1218 -17Q1218 -13 1223 0Q1258 69 1309 123L1319 133H70Q56 140 56 153Q56 168 72 173H1363L1373 181Q1412 211 1490 250Q1489 251 1472 259T1427 283T1373 319L1363 327H710L707 328L390 327H72Q56 332 56 347Q56 360 70 367H1319L1309 377Q1276 412 1247 458T1218 514Z"></path></g></g></g></svg></mjx-container>: If <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.697ex" height="1.62ex" role="img" focusable="false" viewBox="0 -716 750 716"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g></g></g></svg></mjx-container> is normal, then we have the decomposition <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="10.865ex" height="1.805ex" role="img" focusable="false" viewBox="0 -716 4802.3 798"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(1027.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="msup" transform="translate(2083.6,0)"><g data-mml-node="mi"><path data-c="1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path></g><g data-mml-node="mo" transform="translate(854.2,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g><g data-mml-node="mi" transform="translate(3341.3,0)"><path data-c="39B" d="M320 708Q326 716 340 716H348H355Q367 716 372 708Q374 706 423 547T523 226T575 62Q581 52 591 50T634 46H661V0H653Q644 3 532 3Q411 3 390 0H379V46H392Q464 46 464 65Q463 70 390 305T316 539L246 316Q177 95 177 84Q177 72 198 59T248 46H253V0H245Q230 3 130 3Q47 3 38 0H32V46H45Q112 51 127 91Q128 92 224 399T320 708Z"></path></g><g data-mml-node="mi" transform="translate(4035.3,0)"><path data-c="1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path></g></g></g></svg></mjx-container> for unitary matrix <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="1.735ex" height="1.595ex" role="img" focusable="false" viewBox="0 -683 767 705"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path></g></g></g></svg></mjx-container> and diagonal matrix</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\Lambda&=\mathrm{diag}(\lambda_1,\ldots ,\lambda_n)\\
+&=\mathrm{diag}(|\lambda_1|,\ldots |\lambda_n|)\cdot \mathrm{diag}(e^{i\theta_1},\ldots, e^{i\theta_n})\\
+&=:R\cdot \Theta.
+\end{align*}</script><p>Hence <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="12.772ex" height="1.805ex" role="img" focusable="false" viewBox="0 -716 5645.3 798"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(1027.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="msup" transform="translate(2083.6,0)"><g data-mml-node="mi"><path data-c="1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path></g><g data-mml-node="mo" transform="translate(854.2,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g><g data-mml-node="mi" transform="translate(3341.3,0)"><path data-c="1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"></path></g><g data-mml-node="mi" transform="translate(4100.3,0)"><path data-c="398" d="M56 340Q56 423 86 494T164 610T270 680T388 705Q521 705 621 601T722 341Q722 260 693 191T617 75T510 4T388 -22T267 3T160 74T85 189T56 340ZM610 339Q610 428 590 495T535 598T463 651T384 668Q332 668 289 638T221 566Q168 485 168 339Q168 274 176 235Q189 158 228 105T324 28Q356 16 388 16Q415 16 442 24T501 54T555 111T594 205T610 339ZM223 263V422H263V388H514V422H554V263H514V297H263V263H223Z"></path></g><g data-mml-node="mi" transform="translate(4878.3,0)"><path data-c="1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path></g></g></g></svg></mjx-container>, and </p>
+<script type="math/tex; mode=display">
+ A^\ast =U^\ast \Theta^\ast RU=U^\ast R\Theta UU^\ast (\Theta^\ast)^2 U=A(U^\ast \Theta^\ast \Theta^\ast U).</script><p>Therefore, <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="14.834ex" height="1.781ex" role="img" focusable="false" viewBox="0 -705 6556.4 787"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"></path></g><g data-mml-node="mo" transform="translate(1046.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="msup" transform="translate(2102.6,0)"><g data-mml-node="mi"><path data-c="1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path></g><g data-mml-node="mo" transform="translate(854.2,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g><g data-mml-node="msup" transform="translate(3360.3,0)"><g data-mml-node="mi"><path data-c="398" d="M56 340Q56 423 86 494T164 610T270 680T388 705Q521 705 621 601T722 341Q722 260 693 191T617 75T510 4T388 -22T267 3T160 74T85 189T56 340ZM610 339Q610 428 590 495T535 598T463 651T384 668Q332 668 289 638T221 566Q168 485 168 339Q168 274 176 235Q189 158 228 105T324 28Q356 16 388 16Q415 16 442 24T501 54T555 111T594 205T610 339ZM223 263V422H263V388H514V422H554V263H514V297H263V263H223Z"></path></g><g data-mml-node="mo" transform="translate(811,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g><g data-mml-node="msup" transform="translate(4574.9,0)"><g data-mml-node="mi"><path data-c="398" d="M56 340Q56 423 86 494T164 610T270 680T388 705Q521 705 621 601T722 341Q722 260 693 191T617 75T510 4T388 -22T267 3T160 74T85 189T56 340ZM610 339Q610 428 590 495T535 598T463 651T384 668Q332 668 289 638T221 566Q168 485 168 339Q168 274 176 235Q189 158 228 105T324 28Q356 16 388 16Q415 16 442 24T501 54T555 111T594 205T610 339ZM223 263V422H263V388H514V422H554V263H514V297H263V263H223Z"></path></g><g data-mml-node="mo" transform="translate(811,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g><g data-mml-node="mi" transform="translate(5789.4,0)"><path data-c="1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path></g></g></g></svg></mjx-container>. </p>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 乏善可陈, 姑妄观之. 或有纰漏, 敬请指正. </span>
+    </div>
+</article>
+
+
+
+
+
+
+
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+        src="//cdn.jsdelivr.net/npm/mathjax@2.7.8/unpacked/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<input type="hidden" id="MathJax-js"
+        value="//cdn.jsdelivr.net/npm/mathjax@2.7.8/unpacked/MathJax.js?config=TeX-MML-AM_CHTML">
+</input>
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry"><span class="miit">
+                <img src="/img/gov.png" title="中华人民共和国工业和信息化部">
+                <a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">沪ICP证(暂无)号</a>
+        </span>
+    
+    ©2023-2023 Chencheng ZHANG
+</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+</body>
+<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+
+        /*高亮代码块行号*/
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 642px;
+    }
+    .nav.fullscreen {
+        margin-left: -642px;
+    }
+    .nav-left {
+        width: 220px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 592px;
+        }
+        .nav.fullscreen {
+            margin-left: -592px;
+        }
+        .nav-left {
+            width: 200px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 592px;
+            margin-left: -592px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+
+    
+</style>
+
+
+
+
+
+
+
+</html>
